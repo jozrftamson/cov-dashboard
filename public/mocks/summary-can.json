@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "cases": 4500000,
+      "deaths": 48000,
+      "tests_total": 60000000,
+      "vaccine_administration_total_doses": 30000000,
+      "date": "2026-05-22",
+      "active_cases": 12000
+    }
+  ],
+  "updated": "2026-05-23T12:00:00Z"
+}

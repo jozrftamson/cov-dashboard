@@ -1,0 +1,23 @@
+{
+  "aktiv": [
+    { "aktive_Fälle": 1200, "datum_aktiv": "2026-05-18" },
+    { "aktive_Fälle": 1180, "datum_aktiv": "2026-05-19" },
+    { "aktive_Fälle": 1235, "datum_aktiv": "2026-05-20" },
+    { "aktive_Fälle": 1190, "datum_aktiv": "2026-05-21" },
+    { "aktive_Fälle": 1172, "datum_aktiv": "2026-05-22" }
+  ],
+  "Sterblichkeit": [
+    { "kumulative_Todesfälle": 48010, "datum_Todesbericht": "2026-05-18" },
+    { "kumulative_Todesfälle": 48012, "datum_Todesbericht": "2026-05-19" },
+    { "kumulative_Todesfälle": 48015, "datum_Todesbericht": "2026-05-20" },
+    { "kumulative_Todesfälle": 48017, "datum_Todesbericht": "2026-05-21" },
+    { "kumulative_Todesfälle": 48019, "datum_Todesbericht": "2026-05-22" }
+  ],
+  "genesen": [
+    { "genesen": 4450000, "datum_genesen": "2026-05-18" },
+    { "genesen": 4451200, "datum_genesen": "2026-05-19" },
+    { "genesen": 4452400, "datum_genesen": "2026-05-20" },
+    { "genesen": 4453600, "datum_genesen": "2026-05-21" },
+    { "genesen": 4454800, "datum_genesen": "2026-05-22" }
+  ]
+}

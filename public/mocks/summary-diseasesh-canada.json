@@ -1,0 +1,19 @@
+{
+  "updated": 1779578842128,
+  "country": "Canada",
+  "countryInfo": {
+    "iso2": "CA",
+    "iso3": "CAN"
+  },
+  "cases": 4946090,
+  "todayCases": 0,
+  "deaths": 59034,
+  "todayDeaths": 0,
+  "recovered": 4881312,
+  "todayRecovered": 0,
+  "active": 0,
+  "critical": 0,
+  "tests": 73548812,
+  "population": 40000000,
+  "continent": "North America"
+}
