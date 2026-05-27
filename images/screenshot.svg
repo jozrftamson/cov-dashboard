@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640">
+  <style>
+    .bg { fill: #f7fafc }
+    .header { font: 28px Arial; fill: #111827 }
+    .card { fill: #ffffff; stroke: #e5e7eb; stroke-width:1; rx:8 }
+    .muted { fill: #6b7280; font: 14px Arial }
+    .title { fill: #111827; font: 16px Arial }
+    .value { fill: #0f172a; font: 20px Arial; font-weight: bold }
+    .chartBox { fill: #ffffff; stroke: #e5e7eb; stroke-width:1; rx:8 }
+  </style>
+  <rect class="bg" x="0" y="0" width="1000" height="640"/>
+  <text class="header" x="24" y="48">COVID 19 Dashboard</text>
+
+  <!-- left menu -->
+  <g transform="translate(24,80)">
+    <rect class="card" x="0" y="0" width="220" height="120"/>
+    <text class="title" x="16" y="30">Country</text>
+    <rect x="16" y="36" width="188" height="34" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+    <text class="muted" x="22" y="58">Canada</text>
+    <text class="muted" x="16" y="98">Last Updated: --</text>
+  </g>
+
+  <!-- timeseries chart -->
+  <g transform="translate(264,80)">
+    <rect class="chartBox" x="0" y="0" width="520" height="320"/>
+    <text class="muted" x="16" y="24">Timeseries (aktiv / Sterblichkeit / genesen)</text>
+    <!-- fake lines -->
+    <polyline fill="none" stroke="#ef4444" stroke-width="3" points="20,260 80,200 140,220 200,180 260,200 320,150 380,170 440,130 500,160"/>
+    <polyline fill="none" stroke="#6b7280" stroke-width="2" points="20,280 80,240 140,260 200,220 260,240 320,200 380,220 440,180 500,210"/>
+    <polyline fill="none" stroke="#3b82f6" stroke-width="2" points="20,300 80,260 140,280 200,240 260,260 320,220 380,240 440,200 500,230"/>
+  </g>
+
+  <!-- summary cards -->
+  <g transform="translate(800,80)">
+    <rect class="card" x="-280" y="0" width="260" height="80" />
+    <text class="title" x="-260" y="28">Total Cases</text>
+    <text class="value" x="-260" y="56">123,456</text>
+
+    <rect class="card" x="-280" y="96" width="260" height="80" />
+    <text class="title" x="-260" y="124">Total Recovered</text>
+    <text class="value" x="-260" y="152">100,000</text>
+
+    <rect class="card" x="-280" y="192" width="260" height="80" />
+    <text class="title" x="-260" y="220">Total Deaths</text>
+    <text class="value" x="-260" y="248">3,210</text>
+
+    <rect class="card" x="-280" y="288" width="260" height="80" />
+    <text class="title" x="-260" y="316">Total Active</text>
+    <text class="value" x="-260" y="344">20,246</text>
+  </g>
+
+  <text class="muted" x="24" y="620">Generated mock screenshot from current layout (SVG)</text>
+</svg>
